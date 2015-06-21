@@ -16,8 +16,8 @@ com.android.gallery3d
 com.android.htmlviewer
 com.android.inputmethod.latin
 com.android.magicsmoke
+com.android.managedprovisioning
 com.android.mms
-com.android.moto.appdirectedsms
 com.android.moto.appdirectedsms
 com.android.musicfx
 com.android.musicvis
@@ -38,7 +38,6 @@ com.android.sprint.hiddenmenuapp
 com.android.sprint.lifetimedata
 com.android.videoeditor
 com.android.voicedialer
-com.android.vpndialogs
 com.android.vpndialogs
 com.android.wallpaper.holospiral
 com.android.wallpaper.livepicker
@@ -80,18 +79,11 @@ com.google.android.webview
 com.google.android.youtube
 com.google.earth
 com.motorola.android.buacontactadapter
-com.motorola.android.buacontactadapter
-com.motorola.entitlement
 com.motorola.entitlement
 com.motorola.motocit
-com.motorola.motocit
-com.motorola.motosignature.app
 com.motorola.motosignature.app
 com.motorola.service.ims
-com.motorola.service.ims
 com.motorola.triggerenroll
-com.motorola.triggerenroll
-com.motorola.triggertrainingservice
 com.motorola.triggertrainingservice
 com.qualcomm.qti.rcsbootstraputil
 com.qualcomm.qti.rcsimsbootstraputil
