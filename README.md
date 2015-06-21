@@ -1,16 +1,19 @@
 # Android-Bloatware
 Keeping tracking of Bloatware that is safe to disable.
 
-My original blog post: http://blog.burrowsapps.com/2014/03/what-android-apps-are-safe-to-remove.html
+Original blog post: http://blog.burrowsapps.com/2014/03/what-android-apps-are-safe-to-remove.html
 
 ### Download the Android SDK for ADB:
 
 http://developer.android.com/tools/revisions/build-tools.html
 
-### Running the Script(must have root):
+### Running the Script:
 
  - Connect your device via ADB:
- - `./disable.sh`
+ - With root(disabling apps with root):
+   - `./disable-root.sh`
+ - Without root(attempt to disable apps without root):
+   - `./disable.sh``
 
 ### How it works and Basic Commands:
 
