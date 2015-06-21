@@ -4,6 +4,7 @@ com.android.backupconfirm
 com.android.browser
 com.android.calendar
 com.android.camera2
+com.android.captiveportallogin
 com.android.cellbroadcastreceiver
 com.android.development
 com.android.dreams.basic
@@ -14,6 +15,7 @@ com.android.facelock
 com.android.galaxy4
 com.android.gallery3d
 com.android.htmlviewer
+com.android.inputdevices
 com.android.inputmethod.latin
 com.android.magicsmoke
 com.android.managedprovisioning
@@ -26,6 +28,7 @@ com.android.pacprocessor
 com.android.phasebeam
 com.android.printspooler
 com.android.providers.downloads.ui
+com.android.providers.partnerbookmarks
 com.android.providers.userdictionary
 com.android.proxyhandler
 com.android.sdm.plugins.connmo
@@ -85,8 +88,10 @@ com.motorola.motosignature.app
 com.motorola.service.ims
 com.motorola.triggerenroll
 com.motorola.triggertrainingservice
+com.qualcomm.atfwd
 com.qualcomm.qti.rcsbootstraputil
 com.qualcomm.qti.rcsimsbootstraputil
+com.qualcomm.timeservice
 com.svox.pico
 com.verizo.permissions.appdirectedsms
 com.verizon.omadm
