@@ -4,6 +4,8 @@ Keeping tracking of Bloatware that is safe to disable.
 
 Original blog post: http://blog.burrowsapps.com/2014/03/what-android-apps-are-safe-to-remove.html
 
+This list contains apps from Cyanongenmod and devices such as the Nexus 6. 
+
 ### Download the Android SDK for ADB(Android Debug Bridge):
 
 http://developer.android.com/tools/revisions/build-tools.html
@@ -14,7 +16,7 @@ http://developer.android.com/tools/revisions/build-tools.html
  - `./disable-root.sh`
 
 **Without root(attempt to disable apps without root):**
- - `./disable.sh``
+ - `./disable.sh`
 
 ### How it works and Basic Commands:
 

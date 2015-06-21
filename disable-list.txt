@@ -1,15 +1,16 @@
-com.andrew.apollo
+
+com.andrew.apollo Music Player
 com.android.apps.tag
-com.android.backupconfirm
-com.android.browser
-com.android.calendar
-com.android.camera2
+com.android.backupconfirm Restores Google settings
+com.android.browser Stock Browser
+com.android.calendar Stock Calendar
+com.android.camera2 Stock Camera
 com.android.captiveportallogin
-com.android.cellbroadcastreceiver
-com.android.development
-com.android.dreams.basic
+com.android.cellbroadcastreceiver Alert Broadcasts
+com.android.development Development App
+com.android.dreams.basic Screensaver
 com.android.dreams.phototable
-com.android.email
+com.android.email Stock Email
 com.android.exchange
 com.android.facelock
 com.android.galaxy4
@@ -17,70 +18,75 @@ com.android.gallery3d
 com.android.htmlviewer
 com.android.inputdevices
 com.android.inputmethod.latin
-com.android.magicsmoke
-com.android.managedprovisioning
-com.android.mms
+com.android.magicsmoke Live Wallpaper
+com.android.managedprovisioning Google Workplace
+com.android.mms Stock Messaging
 com.android.moto.appdirectedsms
-com.android.musicfx
-com.android.musicvis
-com.android.noisefield
+com.android.musicfx Audio Equalizer
+com.android.musicvis Live Wallpapers
+com.android.noisefield Live Wallpaper
 com.android.pacprocessor
-com.android.phasebeam
+com.android.phasebeam Wallpaper
 com.android.printspooler
-com.android.providers.downloads.ui
+com.android.providers.downloads.ui Downloads
 com.android.providers.partnerbookmarks
-com.android.providers.userdictionary
+com.android.providers.userdictionary Dictionary for Keyboard
 com.android.proxyhandler
+com.android.quicksearchbox Search Box
 com.android.sdm.plugins.connmo
 com.android.sdm.plugins.dcmo
 com.android.sdm.plugins.diagmon
 com.android.sdm.plugins.sprintdm
-com.android.smspush
-com.android.soundrecorder
+com.android.smspush Tethering connectivity
+com.android.soundrecorder Sound Recroder
 com.android.sprint.hiddenmenuapp
 com.android.sprint.lifetimedata
-com.android.videoeditor
-com.android.voicedialer
-com.android.vpndialogs
-com.android.wallpaper.holospiral
-com.android.wallpaper.livepicker
-com.android.wallpapercropper
-com.bel.android.dspmanager
-com.cyanogenmod.account
+com.android.videoeditor Movie Studio
+com.android.voicedialer Voice Search
+com.android.vpndialogs VPN System
+com.android.wallpaper.holospiral Live Wallpaper
+com.android.wallpaper.livepicker Wallpaper Picker
+com.android.wallpapercropper Wallpaper Cropper
+com.bel.android.dspmanager Audio Equalizer
+com.cyanogenmod.account Account Manager
+com.cyanogenmod.CMWallpapers Cyanogen Wallpapers
 com.cyanogenmod.eleven
-com.cyanogenmod.filemanager
-com.cyanogenmod.lockclock
-com.cyanogenmod.trebuchet
-com.cyanogenmod.wallpapers
-com.facebook.katana
+com.cyanogenmod.filemanager File Manager
+com.cyanogenmod.lockclock Lock Screen Widget
+com.cyanogenmod.trebuchet Launcher
+com.cyanogenmod.wallpapers Wallpapers
+com.facebook.katana Facebook
 com.google.android.androidforwork
-com.google.android.apps.books
-com.google.android.apps.cloudprint
-com.google.android.apps.docs
-com.google.android.apps.docs.editors.docs
-com.google.android.apps.docs.editors.sheets
-com.google.android.apps.docs.editors.slides
+com.google.android.apps.books Books
+com.google.android.apps.cloudprint Cloud Print
+com.google.android.apps.currents Currents
+com.google.android.apps.docs Drive
+com.google.android.apps.docs.editors.docs Docs
+com.google.android.apps.docs.editors.sheets Sheets
+com.google.android.apps.docs.editors.slides Slides
 com.google.android.apps.enterprise.dmagent
-com.google.android.apps.fitness
+com.google.android.apps.fitness Fit
 com.google.android.apps.gcs
-com.google.android.apps.inputmethod.hindi
-com.google.android.apps.messaging
+com.google.android.apps.inputmethod.hindi Hindi Keyboard
 com.google.android.apps.photos
-com.google.android.apps.plus
-com.google.android.email
+com.google.android.apps.plus Google+
+com.google.android.apps.walletnfcrel Google Wallet
+com.google.android.email Stock Email
 com.google.android.gm.exchange
-com.google.android.inputmethod.japanese
-com.google.android.inputmethod.korean
+com.google.android.googlequicksearchbox Search Box
+com.google.android.inputmethod.japanese Japanese Keyboard
+com.google.android.inputmethod.korean Korean Keyboard
 com.google.android.inputmethod.pinyin
 com.google.android.inputmethod.piyin
-com.google.android.marvin.talkback
-com.google.android.play.games
-com.google.android.street
+com.google.android.marvin.talkback Accessibility
+com.google.android.play.games Play Games
+com.google.android.street Street View
 com.google.android.tag
-com.google.android.videos
-com.google.android.webview
-com.google.android.youtube
-com.google.earth
+com.google.android.talk Hangouts
+com.google.android.videos Play Movies & TV
+com.google.android.webview Webview
+com.google.android.youtube Youtube
+com.google.earth Earth
 com.motorola.android.buacontactadapter
 com.motorola.entitlement
 com.motorola.motocit
@@ -92,17 +98,20 @@ com.qualcomm.atfwd
 com.qualcomm.qti.rcsbootstraputil
 com.qualcomm.qti.rcsimsbootstraputil
 com.qualcomm.timeservice
-com.svox.pico
+com.svox.pico Text to Speech
+com.tmobile.themechooser Theme Chooser
+com.tmobile.thememanager Theme Manager
 com.verizo.permissions.appdirectedsms
 com.verizon.omadm
 com.verizon.permissions.appdirectedsms
 com.vzw.apnservice
-net.cactii.flash2
+jackpal.androidterm Terminal Emulator
+net.cactii.flash2 Flash Light
 org.codeaurora.ims
-org.cyanogenmod.audiofx
-org.cyanogenmod.launcher.home
-org.cyanogenmod.theme.chooser
-org.cyanogenmod.themes.provider
-org.cyanogenmod.voiceplus
-org.cyanogenmod.wallpapers.photophase
-org.whispersystems.whisperpush
+org.cyanogenmod.audiofx Audio Equalizer
+org.cyanogenmod.launcher.home Launcher
+org.cyanogenmod.theme.chooser Theme Chooser
+org.cyanogenmod.themes.provider Themes Provider
+org.cyanogenmod.voiceplus SMS through Google Voice
+org.cyanogenmod.wallpapers.photophase Live Wallpaper
+org.whispersystems.whisperpush Secure SMS integration

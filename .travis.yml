@@ -16,6 +16,8 @@ before_script:
 script:
  - ./disable.sh
  - ./disable-root.sh
+ - ./update-blog-list.sh
+ - ./update-list.sh
 
 branches:
   except:
