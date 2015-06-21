@@ -1,0 +1,21 @@
+language: android
+
+android:
+  components:
+    - build-tools-22.0.1
+  licenses:
+    - '.+'
+
+script:
+ - ./disable.sh
+ - ./disable-root.sh
+
+branches:
+  except:
+    - gh-pages
+
+notifications:
+  email: false
+
+sudo: false
+
