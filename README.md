@@ -1,4 +1,4 @@
-Android-Bloatware [![Status](https://travis-ci.org/jaredsburrows/Android-Bloatware.svg?branch=master)](https://travis-ci.org/jaredsburrows/Android-Bloatware)
+Android-Bloatware [![Status](https://travis-ci.org/jaredsburrows/android-bloatware.svg?branch=master)](https://travis-ci.org/jaredsburrows/android-bloatware)
 =====
 Keeping tracking of Bloatware that is safe to disable.
 
