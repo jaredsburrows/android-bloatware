@@ -1,5 +1,9 @@
-Android-Bloatware [![Status](https://travis-ci.org/jaredsburrows/android-bloatware.svg?branch=master)](https://travis-ci.org/jaredsburrows/android-bloatware)
+Android-Bloatware
 =====
+
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0)
+[![Status](https://travis-ci.org/jaredsburrows/android-bloatware.svg?branch=master)](https://travis-ci.org/jaredsburrows/android-bloatware)
+
 Keeping tracking of Bloatware that is safe to disable.
 
 Original blog post: http://blog.burrowsapps.com/2014/03/what-android-apps-are-safe-to-remove.html
@@ -47,21 +51,4 @@ You have successfully disabled the application.
 `Error: java.lang.IllegalArgumentException: Unknown package: com.android.musicvis`
 
 This mean your Android device does not have this application installed. 
-
-License
-=========
-
-    Copyright (C) 2015 Android-Bloatware by Jared Burrows
-   
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
 
