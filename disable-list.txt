@@ -58,9 +58,7 @@ com.google.android.androidforwork
 com.google.android.apps.books Books
 com.google.android.apps.cloudprint Cloud Print
 com.google.android.apps.currents Currents
-com.google.android.apps.docs Drive
 com.google.android.apps.docs.editors.docs Docs
-com.google.android.apps.docs.editors.sheets Sheets
 com.google.android.apps.docs.editors.slides Slides
 com.google.android.apps.enterprise.dmagent
 com.google.android.apps.fitness Fit
@@ -71,7 +69,6 @@ com.google.android.apps.plus Google+
 com.google.android.apps.walletnfcrel Google Wallet
 com.google.android.email Stock Email
 com.google.android.gm.exchange
-com.google.android.googlequicksearchbox Search Box
 com.google.android.inputmethod.japanese Japanese Keyboard
 com.google.android.inputmethod.korean Korean Keyboard
 com.google.android.inputmethod.pinyin
@@ -113,3 +110,8 @@ org.cyanogenmod.themes.provider Themes Provider
 org.cyanogenmod.voiceplus SMS through Google Voice
 org.cyanogenmod.wallpapers.photophase Live Wallpaper
 org.whispersystems.whisperpush Secure SMS integration
+com.nbbsw.mmi_test MTK Chinaphone Bloat - unknown purpose
+org.simalliance.openmobileapi.uicc1terminal Nasty Ad-serving Bootkit Component
+org.simalliance.openmobileapi.uicc2terminal Nasty Ad-serving Bootkit Component
+org.simalliance.openmobileapi.eseterminal Nasty Ad-serving Bootkit Component
+com.example MTK Chinaphone Bloat - unknown purpose
