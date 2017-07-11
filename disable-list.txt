@@ -58,7 +58,9 @@ com.google.android.androidforwork
 com.google.android.apps.books Books
 com.google.android.apps.cloudprint Cloud Print
 com.google.android.apps.currents Currents
+com.google.android.apps.docs Drive
 com.google.android.apps.docs.editors.docs Docs
+com.google.android.apps.docs.editors.sheets Sheets
 com.google.android.apps.docs.editors.slides Slides
 com.google.android.apps.enterprise.dmagent
 com.google.android.apps.fitness Fit
