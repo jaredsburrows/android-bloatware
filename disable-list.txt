@@ -71,7 +71,6 @@ com.google.android.apps.plus Google+
 com.google.android.apps.walletnfcrel Google Wallet
 com.google.android.email Stock Email
 com.google.android.gm.exchange
-com.google.android.googlequicksearchbox Search Box
 com.google.android.inputmethod.japanese Japanese Keyboard
 com.google.android.inputmethod.korean Korean Keyboard
 com.google.android.inputmethod.pinyin
@@ -113,3 +112,8 @@ org.cyanogenmod.themes.provider Themes Provider
 org.cyanogenmod.voiceplus SMS through Google Voice
 org.cyanogenmod.wallpapers.photophase Live Wallpaper
 org.whispersystems.whisperpush Secure SMS integration
+com.nbbsw.mmi_test MTK Chinaphone Bloat - unknown purpose
+org.simalliance.openmobileapi.uicc1terminal Nasty Ad-serving Bootkit Component
+org.simalliance.openmobileapi.uicc2terminal Nasty Ad-serving Bootkit Component
+org.simalliance.openmobileapi.eseterminal Nasty Ad-serving Bootkit Component
+com.example MTK Chinaphone Bloat - unknown purpose
