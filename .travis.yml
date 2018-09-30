@@ -1,13 +1,33 @@
 language: android
 
+env:
+  global:
+    - ADB_INSTALL_TIMEOUT=8
+
+before_install:
+  # Download emulator
+  - yes | sdkmanager "platforms;android-19" &>/dev/null
+  - yes | sdkmanager "system-images;android-19;default;armeabi-v7a" &>/dev/null
+  # Update remaining dependencies and accept licenses
+  - yes | sdkmanager --update &>/dev/null
+  - yes | sdkmanager --licenses &>/dev/null
+  # Setup emulator
+  - echo "no" | avdmanager create avd --force -n test -k "system-images;android-19;default;armeabi-v7a" &>/dev/null
+  - $ANDROID_HOME/emulator/emulator -avd test -no-audio -no-window & &>/dev/null
+
 before_script:
-  - .buildscript/setup-emulator.sh
+  # Make sure the emulator is available
+  - android-wait-for-emulator
+
+  # Turn off animations
+  - adb shell settings put global window_animation_scale 0 &
+  - adb shell settings put global transition_animation_scale 0 &
+  - adb shell settings put global animator_duration_scale 0 &
+
+  # Wake up
+  - adb shell input keyevent 82 &
 
 script:
   - ./disable.sh && ./disable-root.sh && ./update-blog-list.sh && ./update-list.sh
 
-notifications:
-  email: false
-
 sudo: false
-
