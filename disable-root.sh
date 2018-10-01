@@ -1,4 +1,25 @@
 #!/bin/bash
 
-cat "disable-list.txt" | while read d; do tmp=$(echo $d | awk {'print $1'}); adb shell "su -c 'pm disable $tmp'"; done
+## Setup
+[[ $# == 0 ]] && filename="disable-list.txt" || filename="${1}"
+packages=($(awk 'BEGIN { FS = "[ \t]+" } ; { print $1 }' ${filename}))
+devices=($(adb devices | tail -n +2 | cut -sf 1))
 
+## Go through each device
+for device in "${devices[@]}"
+do
+  echo -e "Device: \t ${device}"
+
+  ## Go through each package
+  for package in "${packages[@]}"
+  do
+
+    ## Try to disable
+    disable=$(adb -s ${device} shell "su -c pm disable ${package}" &>/dev/null && echo $?)
+    if [ ${disable} == 0 ]; then
+      echo -e "Disabled: \t ${package}"
+    else
+      echo -e "Failed to disable: \t ${package}"
+    fi
+  done
+done

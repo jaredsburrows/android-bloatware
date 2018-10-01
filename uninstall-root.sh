@@ -15,11 +15,11 @@ do
   do
 
     ## Try to disable
-    disable=$(adb -s ${device} shell "pm disable ${package}" &>/dev/null && echo $?)
+    disable=$(adb -s ${device} shell "su -c pm uninstall ${package}" &>/dev/null && echo $?)
     if [ ${disable} == 0 ]; then
-      echo -e "Disabled: \t ${package}"
+      echo -e "Uninstall: \t ${package}"
     else
-      echo -e "Failed to disable: \t ${package}"
+      echo -e "Failed to uninstall: \t ${package}"
     fi
   done
 done

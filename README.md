@@ -8,7 +8,7 @@ Keeping tracking of Bloatware that is safe to disable.
 
 Original blog post: http://blog.burrowsapps.com/2014/03/what-android-apps-are-safe-to-remove.html
 
-This list contains apps from Cyanongenmod and devices such as the Nexus 6. 
+This list contains apps from Cyanongenmod and devices such as the Nexus 6.
 
 ### Download the Android SDK for ADB(Android Debug Bridge):
 
@@ -16,11 +16,17 @@ http://developer.android.com/tools/revisions/build-tools.html
 
 ### Connect your Device and Run the Script:
 
+**Without root(attempt to disable apps without root):**
+ - `./disable.sh`
+
+**Without root(attempt to uninstall apps without root):**
+ - `./uninstall.sh`
+
 **With root(disabling apps with root):**
  - `./disable-root.sh`
 
-**Without root(attempt to disable apps without root):**
- - `./disable.sh`
+**With root(uninstalling apps with root):**
+ - `./uninstall-root.sh`
 
 ### How it works and Basic Commands:
 
@@ -32,11 +38,21 @@ http://developer.android.com/tools/revisions/build-tools.html
 
  - `adb shell pm disable <com.package.name>`
 
+**How to uninstall apps *without* root:**
+
+ - `adb shell pm uninstall <com.package.name>`
+
 **How to disable apps *with* root:**
 
  - `adb root && adb shell pm disable <com.package.name>`
  or
  - `adb shell "su -c 'pm disable <com.package.name>'"`
+
+**How to uninstall apps *with* root:**
+
+ - `adb root && adb shell pm uninstall <com.package.name>`
+ or
+ - `adb shell "su -c 'pm uninstall <com.package.name>'"`
 
 ### Success vs Unsuccessful:
 
@@ -50,5 +66,5 @@ You have successfully disabled the application.
 
 `Error: java.lang.IllegalArgumentException: Unknown package: com.android.musicvis`
 
-This mean your Android device does not have this application installed. 
+This mean your Android device does not have this application installed.
 
