@@ -15,8 +15,8 @@ do
   do
 
     ## Try to disable
-    disable=$(adb -s ${device} shell "pm disable ${package}" &>/dev/null && echo $?)
-    if [ ${disable} == 0 ]; then
+    adb -s ${device} shell "pm disable ${package}" &>/dev/null
+    if [ $? == 0 ]; then
       echo -e "Disabled: \t ${package}"
     else
       echo -e "Failed to disable: \t ${package}"

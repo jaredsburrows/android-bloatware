@@ -13,8 +13,10 @@ do
   ## Go through each package
   for package in "${packages[@]}"
   do
-    uninstall=$(adb -s ${device} shell "su -c pm uninstall ${package}" &>/dev/null && echo $?)
-    uninstalled=$(adb -s ${device} shell "pm list packages | grep ${package}" &>/dev/null && echo $?)
+    adb -s ${device} shell "su -c pm uninstall ${package}" &>/dev/null
+    uninstall=$?
+    adb -s ${device} shell "pm list packages | grep ${package}" &>/dev/null
+    uninstalled=$?
 
     ## Try to uninstall first
     if [ ${uninstall} == 0 ] && [ ${uninstalled} == 0 ]; then
@@ -23,8 +25,8 @@ do
       echo -e "Failed to uninstall: \t ${package}. Trying to disable."
 
       ## If uninstalling fails, try to disable
-      disable=$(adb -s ${device} shell "su -c pm disable ${package}" &>/dev/null && echo $?)
-      if [ ${disable} == 0 ]; then
+      adb -s ${device} shell "su -c pm disable ${package}" &>/dev/null
+      if [ $? == 0 ]; then
         echo -e "Disabled: \t ${package}"
       else
         echo -e "Failed to disable: \t ${package}"
